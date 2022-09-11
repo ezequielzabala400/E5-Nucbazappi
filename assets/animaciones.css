@@ -1,0 +1,39 @@
+/*Hero*/
+
+.hero-btn:hover {
+	background-position: right center;
+	transition: 1s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes slide-up {
+	0% {
+		transform: translateY(100px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.hero-info h1 {
+	animation: fade 1s ease-in, slide-up 1.2s ease-in-out;
+}
+
+.hero-info p {
+	animation: fade 0.8s ease-in forwards, slide-up 1.1s ease-in-out;
+}
+
+.hero-btn {
+	animation: fade 0.8s ease-in forwards, slide-up 1.1s ease-in-out;
+}
+
+.hero-img {
+	animation: fade 0.8s ease-in forwards, slide-up 1.1s ease-in-out;
+}
