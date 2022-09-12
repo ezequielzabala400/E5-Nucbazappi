@@ -50,3 +50,7 @@
 #recomendaciones{
 	animation: fade 0.8s ease-in forwards, slide-right 1.2s ease-in-out;
 }
+
+#categorias{
+	animation: fade 0.8s ease-in forwards, slide-right 1.2s ease-in-out;
+}
