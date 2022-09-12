@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #252525;
+}
+
+h4{
+    margin-top: 200px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+.populares{
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.caja1{
+    height: 171px;
+    width: 147px;
+    border-radius: 1rem;
+    color: #918c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.caja1 p{
+    margin-top: 20px;
+}
+
+.barra1{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #FFA400, #FC2933);
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.caja1:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.caja2{
+    height: 171px;
+    width: 147px;
+    border-radius: 1rem;
+    color: #918c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.barra2{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #ffa400, #fc2933);
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.caja2 p{
+    margin-top: 15px;
+}
+
+.caja2:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.caja3{
+    height: 171px;
+    width: 147px;
+    border-radius: 1rem;
+    color: #918c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.barra3{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #ffa400, #fc2933);
+    border-radius: 2rem;
+    margin-top: 10px;
+}
+
+.caja3 p{
+    margin-top: 15px;
+}
+
+.caja3:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.caja4{
+    height: 171px;
+    width: 147px;
+    border-radius: 1rem;
+    color: #918c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.barra4{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #ffa400, #fc2933);
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.caja4 p{
+    margin-top: 15px;
+}
+
+.caja4:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.caja5{
+    height: 171px;
+    width: 147px;
+    color: #918c8c;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.barra5{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #ffa400, #fc2933);
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.caja5 p{
+    margin-top: 15px;
+}
+
+.caja5:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.caja6{
+    height: 171px;
+    width: 147px;
+    border-radius: 1rem;
+    color: #918c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.barra6{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #ffa400, #fc2933);
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.caja6 p{
+    margin-top: 15px;
+}
+
+.caja6:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.caja7{
+    height: 171px;
+    width: 147px;
+    border-radius: 1rem;
+    color: #918c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.2 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.barra7{
+    height: 4px;
+    width: 24px;
+    background: linear-gradient(to right, #ffa400, #fc2933);
+    margin-top: 10px;
+    border-radius: 2rem;
+}
+
+.caja7 p{
+    margin-top: 15px;
+}
+
+.caja7:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
