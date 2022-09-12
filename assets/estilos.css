@@ -183,6 +183,7 @@ main {
     text-align: center;
     position: relative;
     padding: 0;
+    
 }
 
 #recomendaciones h2::after{
@@ -209,13 +210,14 @@ main {
     align-items: center;
     flex-wrap: wrap;
     gap: 150px;
+    margin-top: -120px;
 }
 
 .recomendaciones-card-1{
     width: 360px;
     height: 90px;
     display: flex;
-    gap: 20px;
+    gap: 14px;
     background: #252525;
     border-radius: 16px;
     justify-content: center;
@@ -231,6 +233,7 @@ main {
 .recomendaciones-card-1 img{
     height: 70px;
     width: 70px;
+    
 }
 
 .recomendaciones-card-1 div{
@@ -281,7 +284,7 @@ main {
     width: 360px;
     height: 90px;
     display: flex;
-    gap: 20px;
+    gap: 18px;
     background: #252525;
     border-radius: 16px;
     justify-content: center;
@@ -346,7 +349,7 @@ main {
     width: 360px;
     height: 90px;
     display: flex;
-    gap: 20px;
+    gap: 14px;
     background: #252525;
     border-radius: 16px;
     justify-content: center;
@@ -680,6 +683,11 @@ h2:hover::after{
     transform-origin: bottom left;
     transform: scaleX(1);
 }
+
+#populares h2{
+    margin-bottom: 16px;
+}
+
 #target{
 
     display: flex;
