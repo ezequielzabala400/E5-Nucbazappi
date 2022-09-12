@@ -79,6 +79,7 @@ main {
 	width: 166px;
 	background-size: 200%;
 	text-decoration: none;
+	transition: 1s;
 }
 
 .hero-img {
