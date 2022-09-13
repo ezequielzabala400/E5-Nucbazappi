@@ -4,6 +4,6 @@ Integrantes:
 
 _Luciano Ibarra.
 _Belén Canteros.
-_Héctor Zabala.
+_Héctor Ezequiel Zabala.
 _Emiliano Zapata.
 _Maximiliano Arraigada.
