@@ -44,7 +44,7 @@
     border: 3px solid #000000;
   }
 
-/* HEADER MAXIMO ARRAIGADA*/
+/* HEADER MAXIMO ARRAIGADA */
 
 header {
 	background-color: #000000;
@@ -92,10 +92,10 @@ nav > ul > li {
 }
 
 .home__nav {
-	color: var(--color__four);
+	color: var(--color__two);
 }
 
-.color__icon {
+.color__icon > i {
 	color: var(--color__two);
 }
 
@@ -117,6 +117,14 @@ nav > ul > li > a:hover {
 	transform: scale(1.1);
 	background: var(--color__two);
 	box-shadow: 0px 0px 10px 0px var(--color__four);
+}
+
+.color__icon:hover {
+	color: var(--color__one);
+}
+
+li > a:hover{
+    color: black ;
 }
 
 body {
