@@ -829,6 +829,10 @@ footer span {
 	gap: 40px;
 }
 
+.footer-links a:hover{
+	color: white;
+}
+
 .wrapper{
     display: inline-flex;
     list-style: none;
