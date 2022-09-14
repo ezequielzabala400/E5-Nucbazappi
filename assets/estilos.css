@@ -154,6 +154,8 @@ nav > ul > li > a:hover {
 	overflow-y: scroll;
 	display: none;
 	z-index: 2;
+	border: 2px solid var(--color1);
+	border-radius: 10px;
 }
 
 .cart::-webkit-scrollbar {
