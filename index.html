@@ -8,103 +8,134 @@
 		<link rel="stylesheet" href="./assets/animaciones.css" />
 		<script src="https://kit.fontawesome.com/1c7912ba04.js" crossorigin="anonymous"></script>
 		<link rel="icon" href="./assets/E5-Web_img/nucbazappiicon.ico" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./assets/mediaqueries.css" />
 		<title>Nucbazappi</title>
 	</head>
 
-  <body>
-    <!-- HEADER -->
-    <header>
-      <div class="logo__pizza">
-        <img
-          src="./assets/E5-Web_img/nucbazappiicon 1.png"
-          alt="nucbazappiicon"
-          title="Logo"
-        />
-      </div>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<div class="logo__pizza">
+				<img src="./assets/E5-Web_img/nucbazappiicon 1.png" alt="nucbazappiicon" title="Logo" />
+			</div>
 
-      <div class="conteiner__menu">
-        <div class="menu__nav">
-          <nav>
-            <ul>
-              <li>
-                <a href="#" class="home__nav"><i class="fa-solid fa-house color__icon"></i>Home</a
-                >
-              </li>
-              <li>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-solid fa-user-large"></i></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+			<div class="conteiner__menu">
+				<div class="menu__nav">
+					<nav class="navbar">
+						<label for="toggle-menu"><i class="fas fa-bars"></i></label>
+						<input type="checkbox" id="toggle-menu" />
 
-    <main>
-      <!-- HERO -->
-      <section id="hero">
-        <div class="hero-info">
-          <h1>Si tenes Zappi, <span>tenes Nucba.</span></h1>
-          <p>Buscá lo que quieras y nucba te quedes sin comida.</p>
-          <a href="#" class="hero-btn">VER MÁS</a>
-        </div>
-        <img
-          src="./assets/E5-Web_img/pizzas.png"
-          class="hero-img"
-          alt="Imagen pizzas"
-          title="Imagen pizzas"
-        />
-      </section>
+						<ul class="seccionesdelnav">
+							<li>
+								<a href="#" class="home__nav"><i class="fa-solid fa-house color__icon"></i>Home</a>
+							</li>
+							<li>
+								<a href="#"><i class="fa-solid fa-user-large"></i></a>
+							</li>
+						</ul>
 
-      <!-- RECOMENDADOS -->
-      <section id="recomendaciones">
-        <h2>Hoy te recomendamos</h2>
-        <div class="recomendaciones-cards">
-          <div class="recomendaciones-card-1">
-            <img
-              src="./assets/E5-Web_img/Photo Menu-8.png"
-              alt="Bennazianna"
-              title="Bennazianna"
-            />
-            <div>
-              <p>Bennazianna</p>
-              <p>La más completa</p>
-              <p>$ 3650</p>
-            </div>
-            <button>Agregar</button>
-          </div>
-          <div class="recomendaciones-card-2">
-            <img
-              src="./assets/E5-Web_img/Photo Menu-9.png"
-              alt="Tronco-Pizza"
-              title="Tronco-Pizza"
-            />
-            <div>
-              <p>Tronco-Pizza</p>
-              <p>Para todo el día</p>
-              <p>$ 870</p>
-            </div>
-            <button>Agregar</button>
-          </div>
-          <div class="recomendaciones-card-3">
-            <img
-              src="./assets/E5-Web_img/Photo Menu-10.png"
-              alt="Papas | Provenzal"
-              title="Papas | Provenzal"
-            />
-            <div>
-              <p>Papas | Provenzal</p>
-              <p>Van como piña</p>
-              <p>$ 360</p>
-            </div>
-            <button>Agregar</button>
-          </div>
-        </div>
-      </section>
-      <!-- CATEGORIAS -->
+						<a href="#" class="cart-icon">
+							<label for="toggle-cart"><i class="fa-solid fa-cart-shopping"></i></label>
+						</a>
+						<input type="checkbox" id="toggle-cart" />
+						<div class="cart">
+							<h5>Tu pedido</h5>
+							<div class="cart-item">
+								<img src="./assets/E5-Web_img/Photo Menu-8.png" alt="Producto" />
+								<div class="item-info">
+									<h3>Bennazianna</h3>
+									<p class="item-detalle">La más completa</p>
+									<p class="item-price">$ 3650</p>
+								</div>
+								<div class="item-handler">
+									<span class="q-handler menos">-</span>
+									<span class="item-cantidad">1</span>
+									<span class="q-handler mas">+</span>
+									<span class="item-borrar" title="Eliminar">X</span>
+								</div>
+							</div>
+							<div class="cart-item">
+								<img src="./assets/E5-Web_img/Photo Menu-10.png" alt="Producto" />
+								<div class="item-info">
+									<h3>Papas Provenzal</h3>
+									<p class="item-detalle">Van como piña</p>
+									<p class="item-price">$ 360</p>
+								</div>
+								<div class="item-handler">
+									<span class="q-handler menos">-</span>
+									<span class="item-cantidad">1</span>
+									<span class="q-handler mas">+</span>
+									<span class="item-borrar" title="Eliminar">X</span>
+								</div>
+							</div>
+							<span class="divider"></span>
+							<div class="cart-total">
+								<p>Total</p>
+								<span>$</span>
+							</div>
+							<button class="btn-add">Comprar</button>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- HERO -->
+			<section id="hero">
+				<div class="hero-info">
+					<h1>Si tenes Zappi, <span>tenes Nucba.</span></h1>
+					<p>Buscá lo que quieras y nucba te quedes sin comida.</p>
+					<a href="#" class="hero-btn">VER MÁS</a>
+				</div>
+				<img src="./assets/E5-Web_img/pizzas.png" class="hero-img" alt="Imagen pizzas" title="Imagen pizzas" />
+			</section>
+
+			<!-- RECOMENDADOS -->
+			<section id="recomendaciones">
+				<h2>Hoy te recomendamos</h2>
+				<div class="recomendaciones-cards">
+					<div class="recomendaciones-card-1">
+						<img src="./assets/E5-Web_img/Photo Menu-8.png" alt="Bennazianna" title="Bennazianna" />
+						<div>
+							<p>Bennazianna</p>
+							<p>La más completa</p>
+							<p>$ 3650</p>
+						</div>
+						<button>Agregar</button>
+					</div>
+					<div class="recomendaciones-card-2">
+						<img src="./assets/E5-Web_img/Photo Menu-9.png" alt="Tronco-Pizza" title="Tronco-Pizza" />
+						<div>
+							<p>Tronco-Pizza</p>
+							<p>Para todo el día</p>
+							<p>$ 870</p>
+						</div>
+						<button>Agregar</button>
+					</div>
+					<div class="recomendaciones-card-3">
+						<img
+							src="./assets/E5-Web_img/Photo Menu-10.png"
+							alt="Papas | Provenzal"
+							title="Papas | Provenzal"
+						/>
+						<div>
+							<p>Papas | Provenzal</p>
+							<p>Van como piña</p>
+							<p>$ 360</p>
+						</div>
+						<button>Agregar</button>
+					</div>
+				</div>
+			</section>
+			<!-- CATEGORIAS -->
 
 			<section id="categorias">
 				<h4>Categorías</h4>
@@ -263,26 +294,26 @@
 		</main>
 		<!-- FOOTER -->
 		<footer>
-            <div>
-                <ul class="wrapper">
-                    <li class="icon facebook">
-                        <span class="tooltip">Facebook</span>
-                        <span><i class="fa-brands fa-facebook"></i></span>
-                    </li>
-                    <li class="icon twitter">
-                        <span class="tooltip">Twitter</span>
-                        <span><i class="fa-brands fa-twitter"></i></span>
-                    </li>
-                    <li class="icon instagram">
-                        <span class="tooltip">Instagram</span>
-                        <span><i class="fa-brands fa-instagram"></i></span>
-                    </li>
-                    <li class="icon youtube">
-                        <span class="tooltip">YouTube</span>
-                        <span><i class="fa-brands fa-youtube"></i></span>
-                    </li>
-                </ul>
-            </div>
+			<div>
+				<ul class="wrapper">
+					<li class="icon facebook">
+						<span class="tooltip">Facebook</span>
+						<span><i class="fa-brands fa-facebook"></i></span>
+					</li>
+					<li class="icon twitter">
+						<span class="tooltip">Twitter</span>
+						<span><i class="fa-brands fa-twitter"></i></span>
+					</li>
+					<li class="icon instagram">
+						<span class="tooltip">Instagram</span>
+						<span><i class="fa-brands fa-instagram"></i></span>
+					</li>
+					<li class="icon youtube">
+						<span class="tooltip">YouTube</span>
+						<span><i class="fa-brands fa-youtube"></i></span>
+					</li>
+				</ul>
+			</div>
 			<div>
 				<ul class="footer-links">
 					<li><a href="#">Términos de Uso</a></li>
